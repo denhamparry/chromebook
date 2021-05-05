@@ -45,7 +45,9 @@
   - Any computers to connect onto (`vi ~/.ssh/.authorized_keys`)
 - Setup ssh config on Chromebook (`vi ~/.ssh/config`)
   - Add anything you're going to ssh onto
-- Setup git directory and pull repos
+- Setup git, git directory and pull repos
+  - `git config --global user.email "lewis@denhamparry.co.uk"`
+  - `git config --global user.name "Lewis Denham-Parry"`
   - `mkdir git && cd git`
   - `git clone git@github.com:denhamparry/chromebook.git`
 
