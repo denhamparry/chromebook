@@ -51,3 +51,13 @@
   - `mkdir git && cd git`
   - `git clone git@github.com:denhamparry/chromebook.git`
 
+## Setup Obsidian
+
+- Set Google Drive obsidian directory to offline within `Files`
+
+```bash
+mkdir /tmp/obsidian && cd $_
+curl -LO https://github.com/obsidianmd/obsidian-releases/releases/download/v0.9.20/obsidian_0.9.20_amd64.deb
+sudo apt install -f ./obsidian_0.9.20_amd64.deb
+cd
+```
