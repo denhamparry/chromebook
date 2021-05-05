@@ -35,4 +35,17 @@
 
 - Log into 1password in Chrome
 
+## Setup Terminal
+
+- Search for Linux
+- Click install terminal
+- Install tmux `sudo apt install tmux -y`
+- Copy public key (`cat .ssh/id_rsa.pub) to:
+  - [GitHub](https://github.com)
+  - Any computers to connect onto (`vi ~/.ssh/.authorized_keys`)
+- Setup ssh config on Chromebook (`vi ~/.ssh/config`)
+  - Add anything you're going to ssh onto
+- Setup git directory and pull repos
+  - `mkdir git && cd git`
+  - `git clone git@github.com:denhamparry/chromebook.git`
 
