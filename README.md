@@ -58,6 +58,6 @@
 ```bash
 mkdir /tmp/obsidian && cd $_
 curl -LO https://github.com/obsidianmd/obsidian-releases/releases/download/v0.9.20/obsidian_0.9.20_amd64.deb
-sudo apt install -f ./obsidian_0.9.20_amd64.deb
+sudo apt install -f ./obsidian_0.9.20_amd64.deb -y
 cd
 ```
