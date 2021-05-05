@@ -54,6 +54,8 @@
 ## Setup Obsidian
 
 - Set Google Drive obsidian directory to offline within `Files`
+  - Right click the obsidian directory and click *Share with Linux*
+- Run the following script in `terminal`:
 
 ```bash
 mkdir /tmp/obsidian && cd $_
@@ -61,3 +63,8 @@ curl -LO https://github.com/obsidianmd/obsidian-releases/releases/download/v0.9.
 sudo apt install -f ./obsidian_0.9.20_amd64.deb -y
 cd
 ```
+
+- Run the `obsidian` app either from terminal or ChromeOS
+- Select *Open folder as vault* > *Open*
+- Select *+ Other Locations*
+  - /mnt/chromeos/GoogleDrive/MyDrive/obsidian/<<vaultname>>/
